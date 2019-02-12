@@ -1,7 +1,7 @@
 
 ## Installation
-    $ git clone https://github.com/formanite-20/dreamline-task.git
-    $ cd dreamline-task
+    $ git clone https://github.com/formanite-20/formanite-20.github.io.git
+    $ cd formanite-20.github.io.git
     $ npm install
 
 ## Start dev server
