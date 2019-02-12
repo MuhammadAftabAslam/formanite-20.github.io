@@ -3,7 +3,7 @@ import ReactPlayer from 'react-player';
 import Grid from '@material-ui/core/Grid';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
-
+import History from '../History/History';
 
 export default class Video extends Component {
   constructor(props) {
@@ -59,7 +59,7 @@ export default class Video extends Component {
             {this.renderPlayerWrapper()}
           </Grid>
           <Grid item xs={12} sm={12} lg={12}>
-
+            <History history={url} click={this.changeUrl.bind(this)}/>
           </Grid>
         </Grid>
       </div>
